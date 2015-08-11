@@ -15,7 +15,7 @@ make
 To run it:
 
 ```bash
-./cron_exporter [flags]
+sudo ./cron_exporter [flags]
 ```
 
 Help on flags:
