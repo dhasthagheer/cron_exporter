@@ -1,0 +1,4 @@
+dependencies-stamp
+cron_exporter
+.build
+*.swp
