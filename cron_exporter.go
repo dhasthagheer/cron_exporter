@@ -58,7 +58,11 @@ func (e *Exporter) Describe(ch chan<- *prometheus.Desc) {
 }
 
 func getCronScheduleFromPHP(cronString string) string {
+<<<<<<< HEAD
+    phpcmd := "php ./cron_parser.php "+"'"+cronString+"'"
+=======
     phpcmd := "php ./CronSchedule.php "+"'"+cronString+"'"
+>>>>>>> 8a018c8a8ea90a7328181a40026c4ec78f60e0c6
     out, _ := exec.Command("bash", "-c", phpcmd).Output()
     return string(out)
 }
